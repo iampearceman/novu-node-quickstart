@@ -19,28 +19,6 @@ Before running the application, make sure you have the following prerequisites i
     npm install
     
     ```
-4. Inicialize the the CLI app by running the following:
-    ```
-    node app.js
-    
-    ```
-
-## **Configuration**
-
-Before running the application, you need to provide your API key and application identifier.
-
-
-1. Open the **`app.js`** file in a text editor.
-2. Locate the following lines:
-    
-    ```
-    javascriptCopy code
-    const apiKey = await askQuestion('Enter your API key: ');
-    const appId = await askQuestion('Enter your Application Identifier: ');
-    
-    ```
-    
-3. Replace **`Enter your API key`** with your Novu API key and **`Enter your Application Identifier`** with your application identifier.
 
 ## **Usage**
 
@@ -50,8 +28,7 @@ To use the application, follow these steps:
 2. Run the following command to start the application:
     
     ```
-    Copy code
-    node index.js
+    node app.js
     
     ```
     
