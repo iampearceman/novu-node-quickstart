@@ -1,0 +1,22 @@
+{
+  "name": "quickstart_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iampearceman/novu-node-quickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iampearceman/novu-node-quickstart/issues"
+  },
+  "homepage": "https://github.com/iampearceman/novu-node-quickstart#readme",
+  "dependencies": {
+    "@novu/node": "^0.15.0"
+  }
+}
